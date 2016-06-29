@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Parse;
+using System.Threading.Tasks;
 public class test : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
@@ -8,6 +9,7 @@ public class test : MonoBehaviour {
 		gameScore["score"] = 1337;
 		gameScore["playerName"] = "HieuLuu";
 		Task saveTask = gameScore.SaveAsync();
+
 
 	}
 	// Update is called once per frame
