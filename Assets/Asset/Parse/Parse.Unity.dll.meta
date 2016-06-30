@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: b033d7363ecd144bbad5acd673cd959b
-timeCreated: 1466493385
+timeCreated: 1467269912
 licenseType: Free
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
-  executionOrder: {}
+  executionOrder:
+    Parse.ParseInitializeBehaviour: -100
   isPreloaded: 0
   platformData:
     Any:
